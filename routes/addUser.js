@@ -12,6 +12,7 @@ router.use('/', async (req, res, next) => {
 
       const uid = user.uid
       console.log('your have been authenticated')
+      console.log("change")
 
       res.render('addUser')
       // ...
