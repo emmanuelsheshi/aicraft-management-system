@@ -3,7 +3,7 @@ var router = Router()
 import { parse } from 'url'
 // import firebase from 'firebase'
 
-import { getAuth, onAuthStateChanged } from 'firebase/auth'
+// import { getAuth, onAuthStateChanged } from 'firebase/auth'
 
 /* GET home page. */
 router.use('/', function (req, res, next) {
