@@ -1,6 +1,7 @@
 import { Router } from 'express'
 var router = Router()
 import { parse } from 'url'
+import firebase from 'firebase'
 
 import { getAuth, onAuthStateChanged } from 'firebase/auth'
 
